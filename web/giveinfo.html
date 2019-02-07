@@ -1,0 +1,65 @@
+<html>
+<head>
+
+       <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
+<script src="bootstrap/jquery-1.11.1.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<title>User Information</title>
+
+</head>
+
+<body>
+
+  <form  role="form" action="GiveInfo" method="post">
+            <fieldset>
+                <legend> Enter Details</legend>
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">10th Marks</label>
+                  <div class="form-group col-xs-5 col-lg-1">
+                      <input type="text" placeholder="10th" name="10th" class="form-control" required="true">
+                  </div>
+                </div>
+
+                <br><br>
+                
+                  <div class="form-group">
+                  <label class="col-sm-2 control-label">12th Marks</label>
+                  <div class="form-group col-xs-5 col-lg-1">
+                   <input type="text" placeholder="12th" name="12th" class="form-control" required="true">
+                  </div>
+                </div>
+
+                <br><br>
+                
+                  <div class="form-group">
+                  <label class="col-sm-2 control-label">CGPA</label>
+                  
+                  <div class="form-group col-xs-5 col-lg-1">
+                   <input type="text" placeholder="CGPA" name="CGPA" class="form-control" required="true">
+                  </div>
+                </div>
+
+                <br><br>
+                       <div class="form-group">
+                  <label class="col-sm-2 control-label">Address</label>
+               <textarea rows="3" class="form-control" name="address" placeholder="Address" required="true"></textarea>
+                </div>
+
+                <br><br>
+
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">Select Branch</label>
+                  <div class="form-group col-xs-5 col-lg-1">
+                  <select class="form-control" name="branch">
+    <option>I.T.</option>
+    <option>CSE</option>
+    <option>Civil</option>
+  </select>
+     </div>           </div>
+               <br>
+               <button  type="submit"  class="btn btn-primary" >Submit</button>
+            </fieldset>
+        </form>
+</body>
+</html>
